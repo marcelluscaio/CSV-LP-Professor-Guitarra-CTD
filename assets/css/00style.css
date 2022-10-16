@@ -3,22 +3,32 @@
 
 :root{
    --fonte-textos: 'Quicksand', sans-serif;
-   --fonte-títulos: 'Fredericka the Great', cursive;
+   --fonte-titulos: 'Fredericka the Great', cursive;
 
    --fonte-titulo: 3rem;
-   --fonte-grande: 2rem;
-   --fonte-media: 1rem;
+   --fonte-grande: 1.5rem;
+   --fonte-normal: 1rem;
    --fonte-pequena: 0.75rem;
 
    --vermelho-principal: #A30808;
    --vermelho-secundario: #C00C22;
    --cinza-grafite: #212121;
-   --preto: #1F0609;
+   --preto: #0f0609;
    --branco: #F0D6D6;
+
+   --altura-cabecalho: 10vh;
 }
 
 body{
    box-sizing: border-box;
 
    background-color: var(--cinza-grafite);
+}
+
+.cabecalho{
+   background-color: var(--preto);
+   width: 100%;
+   height: var(--altura-cabecalho);
+   display: flex;
+   box-shadow: 0 0 25px -10px var(--branco);
 }
