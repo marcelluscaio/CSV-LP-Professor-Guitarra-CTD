@@ -1,0 +1,24 @@
+@import url("reset.css");
+@import url("01cabecalho.css");
+
+:root{
+   --fonte-textos: 'Quicksand', sans-serif;
+   --fonte-títulos: 'Fredericka the Great', cursive;
+
+   --fonte-titulo: 3rem;
+   --fonte-grande: 2rem;
+   --fonte-media: 1rem;
+   --fonte-pequena: 0.75rem;
+
+   --vermelho-principal: #A30808;
+   --vermelho-secundario: #C00C22;
+   --cinza-grafite: #212121;
+   --preto: #1F0609;
+   --branco: #F0D6D6;
+}
+
+body{
+   box-sizing: border-box;
+
+   background-color: var(--cinza-grafite);
+}
