@@ -1,0 +1,71 @@
+.comparacao--titulo{
+   font-family: var(--fonte-titulos);
+   font-size: var(--fonte-extra-grande);
+   color: var(--vermelho-principal);
+   text-align: center;
+   margin-bottom: 2.5rem;
+}
+
+.wrapper-slider{
+   position: relative;
+   width: 55vw;
+   margin: 0 auto;
+}
+
+.comparacao--slider{
+   width: 40vw;
+   margin-bottom: 3rem;
+   position: relative;
+   left: 50%;
+   top: 0.75rem;
+   transform: translateX(-50%);
+}
+
+.slider--legenda{
+   position: absolute;
+
+
+   font-family: var(--fonte-textos);
+   font-size: calc(var(--fonte-normal) + 2px);
+   padding: 0.75em;
+   background-color: rgba(0, 0, 0, 0.1);
+   border-radius: 1em;
+}
+
+.legenda-antes{
+   left: 0;
+   opacity: 0.5;
+}
+
+.legenda-depois{
+   right: 0;
+   color: var(--vermelho-principal);
+   font-weight: bold;
+}
+
+.wrapper-imagens{
+   position: relative;
+   height: 40vw;
+   width: 40vw;
+   margin: 0 auto;
+}
+
+.comparacao--imagem{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 40vw;
+   object-fit: cover;   
+   background-color: var(--branco);
+}
+
+.wrapper-imagem-interna{
+   z-index: 1;
+   width: 0%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+}

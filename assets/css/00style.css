@@ -1,6 +1,7 @@
 @import url("reset.css");
 @import url("01cabecalho.css");
 @import url("02chamada.css");
+@import url("03comparacao.css");
 
 :root{
    --fonte-textos: 'Quicksand', sans-serif;
@@ -39,5 +40,12 @@ body{
 
 .chamada{
    height: calc(100vh - var(--altura-cabecalho));
-   padding: 3em 3em 2em ;      
+   padding: 3em 3em 2em;      
+}
+
+.comparacao{
+   min-height: 100vh;
+   padding: 3em 3em 2em;
+   background-color: var(--branco);
+   box-shadow: inset 0 0 50px 5px var(--cinza-grafite); 
 }
