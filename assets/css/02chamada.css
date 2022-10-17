@@ -52,6 +52,18 @@
    margin: 0 auto;
    border-radius: 2em;
    transition: 0.3s ease-out;
+
+   animation-name: brilhar;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-timing-function: ease-in-out;
+}
+
+@keyframes brilhar{
+   0% {filter: brightness(1);}
+   50% {filter: brightness(2);}
+   100% {filter: brightness(1);}
 }
 
 .chamada--secao--destaque--botao:hover{
