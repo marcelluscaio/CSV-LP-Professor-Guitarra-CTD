@@ -20,9 +20,11 @@
    --altura-cabecalho: 10vh;
 }
 
-body{
+*{
    box-sizing: border-box;
+}
 
+body{
    background-color: var(--cinza-grafite);
    font-family: var(--fonte-textos);
 }
@@ -37,5 +39,5 @@ body{
 
 .chamada{
    height: calc(100vh - var(--altura-cabecalho));
-   padding: 2.5em 1.5em;      
+   padding: 3em 3em 2em ;      
 }

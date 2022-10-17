@@ -4,6 +4,9 @@ Seções:
 Header lateral retráril com transparência que leva para seções dentro da landing page
 
 Oferta: quer aprender a tocar guitarra? Botão para comprar. 
+- Fazer botar brilhr com animação
+- hover no botao
+- posicionar com flex (botao e o bg)
 
 Range mudando imagem
 
@@ -14,7 +17,7 @@ Timeline
 Grid com conteudo do curso
 
 Vantagens.
-Fazer esquema de imagemd e um lado (mochup) texto do outro, alternando.
+Fazer esquema de imagemd e um lado (mockup) texto do outro, alternando.
 
 Swiper com depoimentos de alunos
 
