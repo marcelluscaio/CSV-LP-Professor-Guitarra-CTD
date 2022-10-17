@@ -1,0 +1,57 @@
+.chamada--titulo{
+   font-family: var(--fonte-titulos);
+   font-size: var(--fonte-extra-grande);
+   color: var(--branco);
+   text-align: center;
+   margin-bottom: 5rem;
+}
+
+.chamada--destaque{
+   float: left;
+   width: 50%;
+   padding: 2em;
+   background-color: rgba(256,256,256, 0.1);
+   border-radius: 2em;
+
+   margin-top: 4rem;
+}
+
+.chamada--destaque--titulo{
+   font-size: var(--fonte-grande);
+   color: var(--branco);
+   margin-bottom: 1rem;
+}
+
+.chamada--destaque--texto{
+   font-size: var(--fonte-normal);
+   color: var(--branco);
+   line-height: var(--fonte-grande);
+   margin-bottom: 2rem;
+}
+
+.chamada--destaque--botao{
+   background-color: var(--vermelho-secundario);
+   color: var(--branco);
+   text-decoration: none;
+   font-size: var(--fonte-normal);
+   font-weight: 700;
+
+   display: block;
+   padding: 1em 1.75em;
+   width: 50%;
+   text-align: center;
+   margin: 0 auto;
+   border-radius: 2em;
+}
+
+.chamada--bg{
+   float: right;
+   width: 40%;
+   height: 60%;   
+
+   background-image: url("../img/foto01.png"), url("../img/foto01.png"), url("../img/foto01.png");
+   background-size: 130%;
+   background-position: 15% top;
+   background-repeat: no-repeat;
+   background-blend-mode:soft-light;
+}

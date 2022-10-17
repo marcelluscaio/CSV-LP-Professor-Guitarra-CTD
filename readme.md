@@ -3,7 +3,9 @@ Landing page para professor de guitarra
 Seções:
 Header lateral retráril com transparência que leva para seções dentro da landing page
 
-Oferta: quer aprender a tocar guitarra? Botão para comprar. Range mudando imagem
+Oferta: quer aprender a tocar guitarra? Botão para comprar. 
+
+Range mudando imagem
 
 Seção sobre o professor: texto.
 

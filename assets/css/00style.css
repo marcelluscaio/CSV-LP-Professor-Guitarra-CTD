@@ -1,11 +1,12 @@
 @import url("reset.css");
 @import url("01cabecalho.css");
+@import url("02chamada.css");
 
 :root{
    --fonte-textos: 'Quicksand', sans-serif;
    --fonte-titulos: 'Fredericka the Great', cursive;
 
-   --fonte-titulo: 3rem;
+   --fonte-extra-grande: 2.5rem;
    --fonte-grande: 1.5rem;
    --fonte-normal: 1rem;
    --fonte-pequena: 0.75rem;
@@ -23,6 +24,7 @@ body{
    box-sizing: border-box;
 
    background-color: var(--cinza-grafite);
+   font-family: var(--fonte-textos);
 }
 
 .cabecalho{
@@ -31,4 +33,9 @@ body{
    height: var(--altura-cabecalho);
    display: flex;
    box-shadow: 0 0 25px -10px var(--branco);
+}
+
+.chamada{
+   height: calc(100vh - var(--altura-cabecalho));
+   padding: 2.5em 1.5em;      
 }
