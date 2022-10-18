@@ -1,3 +1,54 @@
+#cabecalho--check{
+   display: none;
+}
+
+.cabecalho--redes{
+   position: absolute;
+   top: -100%;
+   background-color: var(--preto);
+   opacity: 0.7;
+   transition: 2s ease-in-out;
+   z-index: 0;
+   height: calc(100vh - var(--altura-cabecalho));
+}
+
+.cabecalho--redes--lista{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 1.5rem;
+}
+
+#cabecalho--check:checked ~ .cabecalho--redes{
+   top: var(--altura-cabecalho);
+   z-index: 0;
+}
+
+.cabecalho--redes--lista--item{
+   padding: 0 0.75em;
+}
+
+.link--imagem{
+   width: calc(var(--altura-cabecalho) * 1.25);
+   filter: brightness(0) invert(1) brightness(0.7);
+}
+
+#cabecalho--check:checked ~ .cabecalho--menu{
+   animation-name: rodar;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   z-index: 2;
+}
+
+@keyframes rodar{
+   0%{}
+   30%{width: calc(var(--altura-cabecalho) - 15px);}
+   60%{rotate: 180deg;  width: var(--altura-cabecalho);}
+   70%{rotate: 200deg;}
+   100%{rotate: 180deg}
+}
+
 .cabecalho--menu{
    height: 100%;
    width: var(--altura-cabecalho);
@@ -8,7 +59,20 @@
    align-items: center;
    gap: 15%;
    margin-right: auto;
+   z-index: 2;
+   background-color: var(--preto);
 }
+
+.menu--bg-fixo{
+   height: var(--altura-cabecalho);
+   width: 50%;
+   background-color: var(--preto);
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
 
 .cabecalho--menu--linha{
    border-bottom: 2px solid var(--branco);

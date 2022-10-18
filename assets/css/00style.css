@@ -35,12 +35,15 @@ body{
    width: 100%;
    height: var(--altura-cabecalho);
    display: flex;
-   box-shadow: 0 0 25px -10px var(--branco);
+   box-shadow: 0 0 25px -10px var(--branco); 
+   
+   overflow-y: hidden;  
+   z-index: 1;
 }
 
 .chamada{
    height: calc(100vh - var(--altura-cabecalho));
-   padding: 3em 3em 2em;      
+   padding: 3em 3em 2em;
 }
 
 .comparacao{
