@@ -3,14 +3,20 @@ Landing page para professor de guitarra
 Seções:
 Header lateral retráril com transparência que leva para seções dentro da landing page
 - Falta fazer a ação
+- Animação entra por trás
+- linhas encolhem e voltam (efeito de quicar). Rodar elas?
+- aparencia de botao para a label
+
 
 Oferta: quer aprender a tocar guitarra? Botão para comprar. 
 - Fazer botar brilhar com animação (feito)
 - hover no botao (feito)
 - posicionar com flex (botao e o bg) (feito) 
+- sombra inset nessa seção
 
 Range mudando imagem
 (feito)
+-Estilizar range
 
 Seção sobre o professor: texto.
 

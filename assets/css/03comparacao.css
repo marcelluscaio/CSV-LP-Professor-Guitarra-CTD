@@ -17,28 +17,32 @@
    margin-bottom: 3rem;
    position: relative;
    left: 50%;
-   top: 0.75rem;
    transform: translateX(-50%);
+
+   accent-color: var(--vermelho-secundario);
 }
 
-.slider--legenda{
+.comparacao--slider:before,
+.comparacao--slider:after{
    position: absolute;
-
 
    font-family: var(--fonte-textos);
    font-size: calc(var(--fonte-normal) + 2px);
    padding: 0.75em;
    background-color: rgba(0, 0, 0, 0.1);
    border-radius: 1em;
+   top: -1.125rem;
 }
 
-.legenda-antes{
-   left: 0;
-   opacity: 0.5;
+.comparacao--slider:before{
+   content:"Antes";
+   left: -5.25rem;
+   opacity: 0.8;
 }
 
-.legenda-depois{
-   right: 0;
+.comparacao--slider:after{
+   content:"Depois";
+   right: -6.25rem;
    color: var(--vermelho-principal);
    font-weight: bold;
 }
