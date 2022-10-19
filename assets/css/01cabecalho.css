@@ -7,9 +7,14 @@
    top: -100%;
    background-color: var(--preto);
    opacity: 0.7;
-   transition: 2s ease-in-out;
+   transition: 1.5s ease-in-out;
    z-index: 0;
    height: calc(100vh - var(--altura-cabecalho));
+}
+
+#cabecalho--check:checked ~ .cabecalho--redes{
+   top: var(--altura-cabecalho);
+   z-index: 0;
 }
 
 .cabecalho--redes--lista{
@@ -20,13 +25,13 @@
    gap: 1.5rem;
 }
 
-#cabecalho--check:checked ~ .cabecalho--redes{
-   top: var(--altura-cabecalho);
-   z-index: 0;
-}
-
 .cabecalho--redes--lista--item{
    padding: 0 0.75em;
+   transition: 0.4s ease-in-out;
+}
+
+.cabecalho--redes--lista--item:hover{
+   transform: scale(1.04) translate(4px);
 }
 
 .link--imagem{
@@ -36,7 +41,7 @@
 
 #cabecalho--check:checked ~ .cabecalho--menu{
    animation-name: rodar;
-   animation-duration: 2s;
+   animation-duration: 1.5s;
    animation-timing-function: linear;
    z-index: 2;
 }
@@ -72,7 +77,6 @@
    left: 0;
    z-index: 1;
 }
-
 
 .cabecalho--menu--linha{
    border-bottom: 2px solid var(--branco);
