@@ -17,7 +17,7 @@ Bebi dessa fonte. Fazer isso um dia: https://www.youtube.com/watch?v=2KMJxHW21cU
 -Estilizar range (feito)
 - Melhorar estilização do range ( https://www.youtube.com/watch?v=0T2NnnZDzkk)
 
-Seção sobre o professor: texto.
+Seção sobre o professor: texto. (feito)
 Foto em paralaxe
 
 Timeline

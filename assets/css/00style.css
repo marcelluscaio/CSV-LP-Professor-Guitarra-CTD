@@ -3,6 +3,7 @@
 @import url("02chamada.css");
 @import url("03comparacao.css");
 @import url("04sobre.css");
+@import url("05linha-tempo.css");
 
 :root{
    --fonte-textos: 'Quicksand', sans-serif;
@@ -15,7 +16,9 @@
 
    --vermelho-principal: #A30808;
    --vermelho-secundario: #C00C22;
+   --vermelho-secundario-opaco: #C00C2266;
    --cinza-grafite: #212121;
+   --cinza-grafite-opaco: #21212166;
    --preto: #0f0609;
    --branco: #F0D6D6;
 
@@ -60,4 +63,11 @@ body{
 
    display: flex;
    gap: 0.5rem;
+}
+
+.linha-tempo{
+   min-height: 100vh;
+   padding: 3em 3em 2em;
+   background-color: var(--branco);
+   box-shadow: inset 0 0 50px 5px var(--cinza-grafite), 0 5px 35px -10px var(--branco);    
 }
