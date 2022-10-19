@@ -1,0 +1,44 @@
+.sobre--imagem{
+   position: relative;
+   flex: 1;
+   width: 100%;
+}
+
+.sobre--imagem--wrapper{
+   content: "";
+   width: 75%;
+   height: 75%;
+   margin: 0 auto;
+   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+   background-color: var(--branco) ;
+}
+
+.sobre--imagem--imagem{
+   position: absolute;
+   width: 50%;
+   top: 17%;
+   left: 50%;
+   transform: translateX(-50%);
+   mix-blend-mode: luminosity;
+}
+
+.sobre--texto{
+   flex: 1;
+}
+
+.sobre--texto--titulo{
+   font-family: var(--fonte-titulos);
+   font-size: var(--fonte-extra-grande);
+   color: var(--branco);
+   text-align: center;
+   margin-bottom: 2rem;
+}
+
+.sobre--texto--descricao{
+   font-size: var(--fonte-normal);
+   color: var(--branco);
+   line-height: var(--fonte-grande);
+   text-align: justify;
+   width: 55ch;
+   margin: 0 auto 1rem;
+}

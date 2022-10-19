@@ -62,6 +62,7 @@
    width: 40vw;
    object-fit: cover;   
    background-color: var(--branco);
+   box-shadow: inset 0px -10px 20px -5px var(--cinza-grafite);
 }
 
 .wrapper-imagem-interna{
