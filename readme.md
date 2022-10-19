@@ -13,27 +13,32 @@ Oferta: quer aprender a tocar guitarra? Botão para comprar.
 
 Seção Range
 - Range mudando imagem (feito)
+Bebi dessa fonte. Fazer isso um dia: https://www.youtube.com/watch?v=2KMJxHW21cU
 -Estilizar range (feito)
+- Melhorar estilização do range ( https://www.youtube.com/watch?v=0T2NnnZDzkk)
 
 Seção sobre o professor: texto.
+Foto em paralaxe
 
 Timeline
 
 Grid com conteudo do curso
 
-Vantagens.
-Fazer esquema de imagemd e um lado (mockup) texto do outro, alternando.
+Usar acordeon na LP
 
-Swiper com depoimentos de alunos
+Vantagens.
+Fazer esquema de imagemd e um lado (mockup) texto do outro, alternando. (opcional)
+
+Swiper com depoimentos de alunos (opcional)
 
 Preços: caixas com três pacotes:
 Aula avulsa
 Mensal
 Anual
 
-Contatos e formulário para aula gratuita
+Contatos e formulário para aula gratuita (opcional)
 
-Footer: Redes sociais
+Footer: Redes sociais (opcional)
 
 
 

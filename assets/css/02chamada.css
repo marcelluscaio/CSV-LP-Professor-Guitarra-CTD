@@ -54,20 +54,19 @@
    transition: 0.3s ease-out;
 
    animation-name: brilhar;
-   animation-duration: 3s;
+   animation-duration: 1.3s;
    animation-iteration-count: infinite;
-   animation-direction: alternate;
    animation-timing-function: ease-in-out;
 }
 
 @keyframes brilhar{
    0% {filter: brightness(1);}
-   50% {filter: brightness(2);}
+   30% {filter: brightness(1.3);}
    100% {filter: brightness(1);}
 }
 
 .chamada--secao--destaque--botao:hover{
-   filter: brightness(150%);
+   transform: scale(1.01);
 }
 
 .chamada--secao--destaque--botao:active{
