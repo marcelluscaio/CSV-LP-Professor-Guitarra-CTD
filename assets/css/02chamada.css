@@ -21,6 +21,7 @@
    background-color: rgba(256,256,256, 0.1);
    border-radius: 2em;
    perspective: 1000px;
+   margin-left: calc(var(--altura-cabecalho) * 1.25);
 }
 
 .chamada--secao--destaque--titulo{
