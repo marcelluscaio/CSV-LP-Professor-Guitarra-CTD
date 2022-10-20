@@ -6,8 +6,8 @@
 
 .sobre--imagem--wrapper{
    content: "";
-   width: 75%;
-   height: 75%;
+   width: 70vh;
+   height: 70vh;
    margin: 0 auto;
    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
    background-color: var(--branco) ;
@@ -15,10 +15,9 @@
 
 .sobre--imagem--imagem{
    position: absolute;
-   width: 50%;
-   top: 17%;
-   left: 50%;
-   transform: translateX(-50%);
+   width: 55%;
+   top: 25%;
+   left: 25%;
    mix-blend-mode: luminosity;
 }
 

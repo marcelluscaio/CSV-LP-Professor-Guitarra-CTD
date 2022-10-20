@@ -32,6 +32,7 @@
 body{
    background-color: var(--cinza-grafite);
    font-family: var(--fonte-textos);
+   overflow-x: hidden;
 }
 
 .cabecalho{
@@ -59,9 +60,10 @@ body{
 
 .sobre{
    min-height: 100vh;
-   padding: 3em 3em 2em;
+   padding: 2em 3em;
 
    display: flex;
+   align-items: center;
    gap: 0.5rem;
 }
 

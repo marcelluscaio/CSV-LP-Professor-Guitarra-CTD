@@ -21,13 +21,18 @@ Bebi dessa fonte. Fazer isso um dia: https://www.youtube.com/watch?v=2KMJxHW21cU
 - Melhorar estilização do range ( https://www.youtube.com/watch?v=0T2NnnZDzkk)
 
 Seção sobre o professor: texto. (feito)
-- Centralizar
+- Centralizar (feito)
 - Foto em paralaxe com texto no centro
 
 Timeline
-- diminuir bolinha?
-- descer caixa (li)
+- diminuir bolinha? (feito)
+- descer caixa (li) (feito)
+- animação (feito)
 
+Preços: caixas com três pacotes:
+Aula avulsa
+Mensal
+Anual
 Promoção válida até: e usar javascipt para fazer um contador
 
 Grid com conteudo do curso
@@ -35,11 +40,6 @@ Grid com conteudo do curso
 Usar acordeon na LP (FAQ)
 
 Swiper com depoimentos de alunos (opcional)
-
-Preços: caixas com três pacotes:
-Aula avulsa
-Mensal
-Anual
 
 Contatos e formulário para aula gratuita (opcional)
 
