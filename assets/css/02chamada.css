@@ -10,6 +10,8 @@
    display: flex;
    height: 70%;
    gap: 1rem;
+
+   position: relative;
 }
 
 .chamada--secao--destaque{
@@ -86,4 +88,52 @@
    background-position: 7vw 0;
    background-repeat: no-repeat;
    background-blend-mode:soft-light;
+}
+
+.imagem-flutuante{
+   position: absolute;   
+   filter: invert(1) blur(2px);
+
+   animation-duration: 10s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+
+.nota-musical{
+   width: 50px;
+   top: 40px;
+   right: 25px;
+   animation-name: flutuar1;
+}
+
+.clave-sol{
+   width: 90px;
+   mix-blend-mode: lighten;
+   top: -85px;
+   right: 50px;
+   animation-name: flutuar2;
+}
+
+@keyframes flutuar1 {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	50% {
+		transform: translate(25px, -30px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+@keyframes flutuar2 {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	50% {
+		transform: translate(-20px, 10px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
 }

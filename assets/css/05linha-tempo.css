@@ -67,6 +67,7 @@
    position: absolute;
    top: -.625em;
    background-color: var(--vermelho-principal);
+   border: 1px solid var(--vermelho-principal);
    border-radius: 50%;
    box-sizing: border-box;
    transition: 1.5s ease-in-out;

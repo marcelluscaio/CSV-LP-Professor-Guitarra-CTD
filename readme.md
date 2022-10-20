@@ -4,15 +4,15 @@ Seções:
 Header lateral retráril com transparência que leva para seções dentro da landing page
 - Animação entra por trás (feito)
 - Linhas encolhem e voltam (efeito de quicar) e rodam (feito)
-- Colocar mais redes sociais
+- Colocar mais redes sociais (feito)
 - Fazer animação de rodar rodar de volta 
 
 Oferta: quer aprender a tocar guitarra? Botão para comprar. 
 - Fazer botar brilhar com animação (feito)
 - hover no botao (feito)
 - posicionar com flex (botao e o bg) (feito) 
-- Notas musicais voando
-- Diminuir a caixa da chamada
+- Diminuir a caixa da chamada (feito)
+- Notas musicais voando (feito)
 
 Seção Range
 - Range mudando imagem (feito)
