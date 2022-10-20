@@ -5,7 +5,7 @@ Header lateral retráril com transparência que leva para seções dentro da lan
 - Animação entra por trás (feito)
 - Linhas encolhem e voltam (efeito de quicar) e rodam (feito)
 - Colocar mais redes sociais
-- Fazer animação de rodar de volta 
+- Fazer animação de rodar rodar de volta 
 
 Oferta: quer aprender a tocar guitarra? Botão para comprar. 
 - Fazer botar brilhar com animação (feito)
