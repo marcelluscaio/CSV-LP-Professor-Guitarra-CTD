@@ -5,7 +5,7 @@ Header lateral retráril com transparência que leva para seções dentro da lan
 - Animação entra por trás (feito)
 - Linhas encolhem e voltam (efeito de quicar) e rodam (feito)
 - Colocar mais redes sociais (feito)
-- Fazer animação de rodar rodar de volta 
+- Fazer animação de rodar rodar de volta (feito)
 
 Oferta: quer aprender a tocar guitarra? Botão para comprar. 
 - Fazer botar brilhar com animação (feito)
@@ -17,8 +17,10 @@ Oferta: quer aprender a tocar guitarra? Botão para comprar.
 Seção Range
 - Range mudando imagem (feito)
 Bebi dessa fonte. Fazer isso um dia: https://www.youtube.com/watch?v=2KMJxHW21cU
+
 -Estilizar range (feito)
-- Melhorar estilização do range ( https://www.youtube.com/watch?v=0T2NnnZDzkk)
+- Melhorar estilização do range
+( https://www.youtube.com/watch?v=0T2NnnZDzkk)
 
 Seção sobre o professor: texto. (feito)
 - Centralizar (feito)

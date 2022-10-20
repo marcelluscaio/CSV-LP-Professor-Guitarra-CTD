@@ -1,0 +1,22 @@
+.acordeon--botao{
+   width: 100%;
+   height: 2.5rem;
+}
+
+.acordeon--caixa-texto{
+   height: 0;
+   overflow: hidden;
+}
+
+.acordeon--texto{
+   color: white;
+   font-size: var(--fonte-normal);
+   line-height: 1.25rem;
+   padding: 1em 0;
+   transition: 1s ease-in-out;
+}
+
+.esconder+.acordeon--caixa-texto{
+   height: 3rem;
+}
+

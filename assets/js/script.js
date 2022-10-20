@@ -1,3 +1,4 @@
+//slider de troca de imagem
 const meuSlider = document.querySelector(".comparacao--slider");
 const imgWrapper = document.querySelector(".wrapper-imagem-interna"); 
 
@@ -11,7 +12,7 @@ meuSlider.addEventListener("input", () => {
 imgWrapper.style.width = `${meuSlider.value}%`;
 });
 
-
+//linha do tempo animada
 let listaItensLinhaTempo = document.querySelectorAll(".fora-tela");
 
 window.onscroll = () =>{
@@ -27,5 +28,16 @@ function procuraItens(lista){
    }
 }
 
+//acordeon
+let botoesAcordeon = document.querySelectorAll(".acordeon--botao");
+for(botao of botoesAcordeon){
+      botao.addEventListener("click", (e) => {
+         for(botao of botoesAcordeon){
+            botao.classList.remove("esconder");
+         }
+         e.target.classList.add("esconder");
+   });
+}
+//melhorar transição e tamanho
 
 
