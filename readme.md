@@ -1,8 +1,9 @@
 # Landing Page para professor de guitarra
 
-###Atenção
-:warning::no_mobile_phones::radioactive: 
-Favor abrir no computador, responsividade em construção.
+### Atenção
+:warning::no_mobile_phones::radioactive: <br>
+Favor abrir no computador <br>
+Responsividade em construção.
 
 <img src="assets/img/screencapture-marcelluscaio-github-io-CSV-LP-Professor-Guitarra-CTD-2022-10-21-16_24_22.png">
 
