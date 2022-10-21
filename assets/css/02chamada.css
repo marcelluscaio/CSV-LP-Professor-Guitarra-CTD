@@ -59,7 +59,7 @@
    animation-name: brilhar;
    animation-duration: 1.3s;
    animation-iteration-count: infinite;
-   animation-timing-function: ease-in-out;
+   animation-timing-function: cubic-bezier(.81,.01,.19,.99);
 }
 
 @keyframes brilhar{

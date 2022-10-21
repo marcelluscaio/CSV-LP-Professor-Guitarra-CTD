@@ -31,11 +31,14 @@ function procuraItens(lista){
 //acordeon
 let botoesAcordeon = document.querySelectorAll(".acordeon--botao");
 for(botao of botoesAcordeon){
-      botao.addEventListener("click", (e) => {
-         for(botao of botoesAcordeon){
-            botao.classList.remove("esconder");
+   botao.addEventListener("click", (e) => {
+      for(botao of botoesAcordeon){
+         if(botao===e.target){
+            e.target.classList.toggle("mostrar");
+         } else{
+            botao.classList.remove("mostrar");
          }
-         e.target.classList.add("esconder");
+      }         
    });
 }
 //melhorar transição e tamanho

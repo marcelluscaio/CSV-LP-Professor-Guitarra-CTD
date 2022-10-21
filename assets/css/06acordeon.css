@@ -4,8 +4,13 @@
 }
 
 .acordeon--caixa-texto{
-   height: 0;
+   max-height: 0;
    overflow: hidden;
+   transition: max-height 0.7s ease-in-out;
+}
+
+.mostrar+.acordeon--caixa-texto{
+   max-height: 3rem;
 }
 
 .acordeon--texto{
@@ -13,10 +18,4 @@
    font-size: var(--fonte-normal);
    line-height: 1.25rem;
    padding: 1em 0;
-   transition: 1s ease-in-out;
 }
-
-.esconder+.acordeon--caixa-texto{
-   height: 3rem;
-}
-
