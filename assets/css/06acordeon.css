@@ -72,3 +72,7 @@
    text-align: justify;
    display: inline-block;
 }
+
+strong{
+   font-weight: 600;
+}

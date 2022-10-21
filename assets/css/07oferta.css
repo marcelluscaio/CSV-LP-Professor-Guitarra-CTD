@@ -22,8 +22,9 @@
    background-color: rgba(0,0,0,0.1);
    border-radius: 2em;
    padding: 2em;
-   height: 60%;
+   height: 75%;
    position: relative;
+   flex: 1;
 }
 
 .oferta--lista--item--titulo{
@@ -60,4 +61,10 @@
    opacity: 0.75;
    color: var(--cinza-grafite);
    margin-bottom: 0.5em;
+}
+
+.oferta--contador{
+   position: absolute;
+   bottom: 0;
+   right: 0;
 }

@@ -42,3 +42,34 @@ for(botao of botoesAcordeon){
       }         
    });
 }
+
+//contador
+
+setInterval(() => {
+   let tempoAgora = new Date();
+   let milissegundosAteLimite = dataLimite.getTime() - tempoAgora.getTime();
+   let diasRestantes = milissegundosAteLimite/(1000*60*60*24);
+   let diasRestantesRedondo = Math.floor(diasRestantes);
+   let horasRestantes = (diasRestantes - diasRestantesRedondo)*24;
+   let horasRestantesRedondo = Math.floor(horasRestantes);
+   let minutosRestantes = (horasRestantes - horasRestantesRedondo)*60;
+   let minutosRestantesRedondo = Math.floor(minutosRestantes);
+   let segundosRestantes = (minutosRestantes - minutosRestantesRedondo)*60;
+   let segundosRestantesRedondo = Math.floor(segundosRestantes);
+   const contadorDias = document.querySelector(".contador--dias");
+   const contadorHoras = document.querySelector(".contador--horas");
+   const contadorMinutos = document.querySelector(".contador--minutos");
+   const contadorSegundos = document.querySelector(".contador--segundos"); 
+   contadorDias.innerHTML = diasRestantesRedondo;
+   contadorHoras.innerHTML = horasRestantesRedondo;
+   contadorMinutos.innerHTML = minutosRestantesRedondo;
+   contadorSegundos.innerHTML = segundosRestantesRedondo;
+}, 1000);
+
+const dataLimite = new Date("December 31, 2022 23:59:59");
+const diaLimite = dataLimite.getDate();
+const horaLimite = dataLimite.getHours();
+const minutoLimite = dataLimite.getMinutes();
+const segundoLimite = dataLimite.getSeconds();
+
+
