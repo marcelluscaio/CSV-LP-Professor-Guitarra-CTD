@@ -31,15 +31,16 @@ Timeline
 - descer caixa (li) (feito)
 - animação (feito)
 
-Preços: caixas com três pacotes:
-Aula avulsa
-Mensal
-Anual
+
+Acordeon (FAQ) (feito)
+
+Oferta final
+- Comprejá na vertical com planos à direita
+- Caixas com três pacotes (Aula avulsa, mensal, anual)
 Promoção válida até: e usar javascipt para fazer um contador
 
-Grid com conteudo do curso
 
-Usar acordeon na LP (FAQ)
+Grid com conteudo do curso
 
 Swiper com depoimentos de alunos (opcional)
 

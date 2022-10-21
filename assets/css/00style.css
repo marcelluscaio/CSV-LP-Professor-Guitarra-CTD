@@ -5,6 +5,7 @@
 @import url("04sobre.css");
 @import url("05linha-tempo.css");
 @import url("06acordeon.css");
+@import url("07oferta.css");
 
 :root{
    --fonte-textos: 'Quicksand', sans-serif;
@@ -60,7 +61,7 @@ body{
 }
 
 .sobre{
-   min-height: 100vh;
+   min-height: 102vh;
    padding: 2em 3em;
 
    display: flex;
@@ -76,6 +77,15 @@ body{
 }
 
 .acordeon{
+   min-height: 105vh;
+   padding: 2em 3em 10em;
+}
+
+.oferta{
    min-height: 100vh;
-   padding: 2em 3em;
+   padding: 3em 3em 2em;
+   background-color: var(--branco);
+   box-shadow: inset 0 0 50px 5px var(--cinza-grafite), 0 5px 35px -10px var(--branco);
+
+   display: flex;
 }
