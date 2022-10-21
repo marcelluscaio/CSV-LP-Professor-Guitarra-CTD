@@ -44,7 +44,6 @@ for(botao of botoesAcordeon){
 }
 
 //contador
-
 setInterval(() => {
    let tempoAgora = new Date();
    let milissegundosAteLimite = dataLimite.getTime() - tempoAgora.getTime();
@@ -71,5 +70,3 @@ const diaLimite = dataLimite.getDate();
 const horaLimite = dataLimite.getHours();
 const minutoLimite = dataLimite.getMinutes();
 const segundoLimite = dataLimite.getSeconds();
-
-
