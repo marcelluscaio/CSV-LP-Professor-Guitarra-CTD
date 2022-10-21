@@ -28,7 +28,8 @@ function procuraItens(lista){
    }
 }
 
-//acordeon
+//acordeon 
+//No futuro, a height da div deve ser igual à height do p dentro dela
 let botoesAcordeon = document.querySelectorAll(".acordeon--botao");
 for(botao of botoesAcordeon){
    botao.addEventListener("click", (e) => {
@@ -41,6 +42,3 @@ for(botao of botoesAcordeon){
       }         
    });
 }
-//melhorar transição e tamanho
-
-
