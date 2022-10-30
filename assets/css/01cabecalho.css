@@ -83,7 +83,7 @@
 
 .menu--bg-fixo{
    height: var(--altura-cabecalho);
-   width: 50%;
+   width: calc(var(--altura-cabecalho) * 1.5);
    background-color: var(--preto);
    position: absolute;
    top: 0;
@@ -110,4 +110,9 @@
    display: flex;
    align-items: center;
    margin-right: 1rem;
+}
+
+@media screen and (max-width: 480px){
+   
+
 }

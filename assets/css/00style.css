@@ -6,6 +6,7 @@
 @import url("05linha-tempo.css");
 @import url("06acordeon.css");
 @import url("07oferta.css");
+@import url("08mediaqueries.css");
 
 :root{
    --fonte-textos: 'Quicksand', sans-serif;
