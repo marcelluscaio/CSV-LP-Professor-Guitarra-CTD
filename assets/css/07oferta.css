@@ -88,3 +88,33 @@
    font-weight: 600;
    color: var(--vermelho-principal);
 }
+
+@media screen and (max-width: 480px){
+   .oferta{
+      flex-direction: column;
+   }
+
+   .oferta--titulo{
+      writing-mode:horizontal-tb;
+      text-orientation: upright;
+      display: inline-block;
+
+      font-family: var(--fonte-titulos);
+      font-size: var(--fonte-extra-grande);
+      color: var(--vermelho-principal);
+      word-spacing: -35px;
+      padding: 0 2.5em;
+   }
+
+   .oferta--lista{
+      flex-direction: column;
+      margin-bottom: 40vh;
+   }
+
+   .oferta--contador{
+   left: 0;
+   width: auto;
+   border-radius: 0;
+   }
+
+}
