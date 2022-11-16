@@ -24,3 +24,13 @@ Responsividade em construção.
 ### Como executar:
 
 Acesse: https://marcelluscaio.github.io/CSV-LP-Professor-Guitarra-CTD/
+
+### A fazer
+[ ] Estilizar scroll bar
+[ ] Aplicar rotate na animacao das notas musicais na primeira dobra
+[ ] Melhorar o hover do menu
+[ ] Ajustar linha do tempo para a bolinha permanecer no meio
+[ ] Responsividade
+[ ] Swiper com depoimentos de alunos
+[ ] Grid com conteudo do curso
+[ ] Video embedado do youtube
